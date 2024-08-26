@@ -76,5 +76,6 @@ Check `requirements.txt` voor de complete lijst. De belangrijkste libraries zijn
 [MIT License](LICENSE)
 
 ## Demo
-<video src="https://github.com/user-attachments/assets/-" controls="controls" style="max-width: 730px;">
-</video>
+[<video src="https://github.com/user-attachments/assets/-" controls="controls" style="max-width: 730px;">
+</video>](https://github.com/user-attachments/assets/9aa20948-4ddf-4447-b8ab-607ad2ea10da
+)
