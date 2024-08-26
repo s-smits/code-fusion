@@ -9,7 +9,7 @@ CodeFusion is een handige Python-tool waarmee je de output van verschillende AI-
 1. Clone de repo en ga naar de projectfolder:
    ```
    git clone https://github.com/s-smits/code-fusion
-   cd codefusion
+   cd code-fusion
    ```
 
 2. Maak een virtual environment en activeer 'm:
@@ -74,3 +74,7 @@ Check `requirements.txt` voor de complete lijst. De belangrijkste libraries zijn
 ## License
 
 [MIT License](LICENSE)
+
+## Demo
+<video src="https://github.com/user-attachments/assets/-" controls="controls" style="max-width: 730px;">
+</video>
