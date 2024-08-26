@@ -1,5 +1,3 @@
-Hier is een vrijere, meer natuurlijke Nederlandse vertaling met behoud van enkele Engelse termen:
-
 # CodeFusion: AI-model Vergelijker voor Developers
 
 CodeFusion is een handige Python-tool waarmee je de output van verschillende AI-modellen kunt vergelijken voor je coding vragen. De app ondersteunt modellen van grote spelers zoals Google, Anthropic, OpenAI en Meta, en zet hun antwoorden netjes naast elkaar.
