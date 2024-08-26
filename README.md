@@ -1,4 +1,4 @@
-# CodeFusion: AI-model Vergelijker voor Developers
+# CodeFusion: LLM code kiezer
 
 CodeFusion is een handige Python-tool waarmee je de output van verschillende AI-modellen kunt vergelijken voor je coding vragen. De app ondersteunt modellen van grote spelers zoals Google, Anthropic, OpenAI en Meta, en zet hun antwoorden netjes naast elkaar.
 
