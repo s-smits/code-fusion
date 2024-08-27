@@ -1,17 +1,20 @@
-# CodeFusion: LLM code kiezer
+Here's the English translation of the README.md file:
 
-CodeFusion is een handige Python-tool waarmee je de output van verschillende AI-modellen kunt vergelijken voor je coding vragen. De app ondersteunt modellen van grote spelers zoals Google, Anthropic, OpenAI en Meta, en zet hun antwoorden netjes naast elkaar.
+```markdown:src/code-fusion/readme.md
+# CodeFusion: LLM code chooser
+
+CodeFusion is a handy Python tool that allows you to compare the output of different AI models for your coding questions. The app supports models from major players like Google, Anthropic, OpenAI, and Meta, and neatly displays their answers side by side.
 
 ## Setup
 
-1. Clone de repo en ga naar de projectfolder:
+1. Clone the repo and navigate to the project folder:
    ```
    git clone https://github.com/s-smits/code-fusion
    cd code-fusion
    ```
 
-2. Maak een virtual environment en activeer 'm:
-   - Mac en Linux:
+2. Create a virtual environment and activate it:
+   - Mac and Linux:
      ```
      python3 -m venv venv_codefusion
      source venv_codefusion/bin/activate
@@ -22,49 +25,65 @@ CodeFusion is een handige Python-tool waarmee je de output van verschillende AI-
      venv_codefusion\Scripts\activate
      ```
 
-3. Installeer de benodigde packages:
+3. Install the required packages:
    ```
    pip install -r requirements.txt
    ```
 
-4. Maak een `.env` file in de root van je project en zet je API keys erin:
+4. Create a `.env` file in the root of your project and add your API keys:
    ```
-   GOOGLE_API_KEY=jouw_google_api_key
-   ANTHROPIC_API_KEY=jouw_anthropic_api_key
-   OPENAI_API_KEY=jouw_openai_api_key
-   OPENROUTER_API_KEY=jouw_openrouter_api_key
+   GOOGLE_API_KEY=your_google_api_key
+   ANTHROPIC_API_KEY=your_anthropic_api_key
+   OPENAI_API_KEY=your_openai_api_key
+   OPENROUTER_API_KEY=your_openrouter_api_key
    ```
 
-   Je hoeft alleen de keys toe te voegen voor de modellen die je wilt gebruiken.
+   You only need to add the keys for the models you want to use.
 
-## Aan de slag
+## Getting Started
 
-Run het script:
+Run the script:
 ```
 python codefusion.py
 ```
 
-De app doet het volgende:
-1. Vraagt je om minstens twee AI-modellen te kiezen
-2. Checkt of je API keys hebt ingevuld (of vraagt erom als ze ontbreken)
-3. Laat je programmeervragen stellen
-4. Toont live de antwoorden van de gekozen modellen
-5. Geeft een samenvatting van de verschillen tussen de antwoorden
-6. Adviseert kort welk model het beste lijkt voor jouw vraag
+The app does the following:
+1. Asks you to choose at least two AI models
+2. Checks if you've filled in your API keys (or asks for them if they're missing)
+3. Lets you ask programming questions
+4. Shows the answers from the chosen models in real-time
+5. Provides a summary of the differences between the answers
+6. Briefly advises which model seems best for your question
 
-Type 'quit' om de app af te sluiten.
+Type 'quit' to exit the app.
 
 ## Features
 
-- Parallel querien van meerdere AI-modellen
-- Live weergave van de antwoorden
-- Automatische retry bij API-fouten
-- Summary en advies via GPT-4o-mini
-- Fancy console-interface met gekleurde output
+- Parallel querying of multiple AI models
+- Live display of answers
+- Automatic retry for API errors
+- Summary and advice via GPT-4o-mini
+- Fancy console interface with colored output
+
+## --best Option
+
+With the `--best` option, you can select the most advanced and expensive models for your AI comparisons. When this option is enabled, the following models are used:
+
+- **Google**: `gemini/gemini-1.5-pro-latest`
+- **Anthropic**: `anthropic/claude-3-5-sonnet-20240620`
+- **OpenAI**: `openai/gpt-4o`
+- **Meta**: `openrouter/meta-llama/llama-3.1-405b-instruct`
+
+Without the `--best` option, the cheaper models are used:
+
+- **Google**: `gemini/gemini-1.5-flash`
+- **Anthropic**: `anthropic/claude-3-haiku-20240307`
+- **OpenAI**: `openai/gpt-4o-mini`
+- **Meta**: `openrouter/meta-llama/llama-3.1-8b-instruct`
 
 ## Requirements
 
-Check `requirements.txt` voor de complete lijst. De belangrijkste libraries zijn:
+Check `requirements.txt` for the complete list. The main libraries are:
 - litellm
 - rich
 - python-dotenv
@@ -77,3 +96,4 @@ Check `requirements.txt` voor de complete lijst. De belangrijkste libraries zijn
 [<video src="https://github.com/user-attachments/assets/-" controls="controls" style="max-width: 730px;">
 </video>](https://github.com/user-attachments/assets/9aa20948-4ddf-4447-b8ab-607ad2ea10da
 )
+```
