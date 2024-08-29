@@ -79,6 +79,17 @@ Without the `--best` option, the cheaper models are used:
 - **OpenAI**: `openai/gpt-4o-mini`
 - **Meta**: `openrouter/meta-llama/llama-3.1-8b-instruct`
 
+## Use Cases
+
+1. Developer Productivity Enhancement:
+CodeFusion can significantly boost developer productivity by allowing them to quickly compare outputs from multiple AI models for coding questions. This saves time in researching and cross-referencing different AI assistants, enabling developers to find the most accurate or useful code snippets faster.
+
+2. AI Model Evaluation for Enterprise:
+For companies considering integrating AI coding assistants into their development workflow, CodeFusion provides an easy way to evaluate and compare different models. This can help decision-makers choose the most suitable AI service for their specific needs and use cases, potentially saving significant costs in the long run.
+
+3. Educational Tool for AI and Programming:
+CodeFusion can serve as an excellent educational resource for students and professionals learning about AI in programming. By comparing outputs from different models side-by-side, users can gain insights into how various AI models approach coding problems, understand their strengths and weaknesses, and learn best practices from multiple sources simultaneously.
+
 ## Requirements
 
 Check `requirements.txt` for the complete list. The main libraries are:
