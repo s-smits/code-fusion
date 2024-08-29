@@ -6,30 +6,30 @@ CodeFusion is a handy Python tool that allows you to compare the output of diffe
 ## Setup
 
 1. Clone the repo and navigate to the project folder:
-   ```
+   ```bash
    git clone https://github.com/s-smits/code-fusion
    cd code-fusion
    ```
 
 2. Create a virtual environment and activate it:
-   - Mac and Linux:
-     ```
+   - **Mac and Linux:**
+     ```bash
      python3 -m venv venv_codefusion
      source venv_codefusion/bin/activate
      ```
-   - Windows:
-     ```
+   - **Windows:**
+     ```bash
      python -m venv venv_codefusion
      venv_codefusion\Scripts\activate
      ```
 
 3. Install the required packages:
-   ```
+   ```bash
    pip install -r requirements.txt
    ```
 
 4. Create a `.env` file in the root of your project and add your API keys:
-   ```
+   ```plaintext
    GOOGLE_API_KEY=your_google_api_key
    ANTHROPIC_API_KEY=your_anthropic_api_key
    OPENAI_API_KEY=your_openai_api_key
@@ -41,7 +41,7 @@ CodeFusion is a handy Python tool that allows you to compare the output of diffe
 ## Getting Started
 
 Run the script:
-```
+```bash
 python codefusion.py
 ```
 
@@ -81,14 +81,14 @@ Without the `--best` option, the cheaper models are used:
 
 ## Use Cases
 
-1. Developer Productivity Enhancement:
-CodeFusion can significantly boost developer productivity by allowing them to quickly compare outputs from multiple AI models for coding questions. This saves time in researching and cross-referencing different AI assistants, enabling developers to find the most accurate or useful code snippets faster.
+1. **Developer Productivity Enhancement:**  
+   CodeFusion can significantly boost developer productivity by allowing them to quickly compare outputs from multiple AI models for coding questions. This saves time in researching and cross-referencing different AI assistants, enabling developers to find the most accurate or useful code snippets faster.
 
-2. AI Model Evaluation for Enterprise:
-For companies considering integrating AI coding assistants into their development workflow, CodeFusion provides an easy way to evaluate and compare different models. This can help decision-makers choose the most suitable AI service for their specific needs and use cases, potentially saving significant costs in the long run.
+2. **AI Model Evaluation for Enterprise:**  
+   For companies considering integrating AI coding assistants into their development workflow, CodeFusion provides an easy way to evaluate and compare different models. This can help decision-makers choose the most suitable AI service for their specific needs and use cases, potentially saving significant costs in the long run.
 
-3. Educational Tool for AI and Programming:
-CodeFusion can serve as an excellent educational resource for students and professionals learning about AI in programming. By comparing outputs from different models side-by-side, users can gain insights into how various AI models approach coding problems, understand their strengths and weaknesses, and learn best practices from multiple sources simultaneously.
+3. **Educational Tool for AI and Programming:**  
+   CodeFusion can serve as an excellent educational resource for students and professionals learning about AI in programming. By comparing outputs from different models side-by-side, users can gain insights into how various AI models approach coding problems, understand their strengths and weaknesses, and learn best practices from multiple sources simultaneously.
 
 ## Requirements
 
@@ -102,6 +102,5 @@ Check `requirements.txt` for the complete list. The main libraries are:
 [MIT License](LICENSE)
 
 ## Demo
-[<video src="https://github.com/user-attachments/assets/-" controls="controls" style="max-width: 730px;">
-</video>](https://github.com/user-attachments/assets/9aa20948-4ddf-4447-b8ab-607ad2ea10da)
+[<video src="https://github.com/user-attachments/assets/-" controls="controls" style="max-width: 730px;"></video>](https://github.com/user-attachments/assets/9aa20948-4ddf-4447-b8ab-607ad2ea10da)
 ```
