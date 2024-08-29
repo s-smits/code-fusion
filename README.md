@@ -1,4 +1,3 @@
-```markdown:src/code-fusion/readme.md
 # CodeFusion: LLM Code Chooser
 
 CodeFusion is a handy Python tool that allows you to compare the output of different AI models for your coding questions. The app supports models from major players like Google, Anthropic, OpenAI, and Meta, and neatly displays their answers side by side.
