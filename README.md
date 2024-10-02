@@ -71,7 +71,7 @@ With the `--best` option, you can select the most advanced and expensive models 
 - **OpenAI**: `openai/gpt-4o`
 - **Meta**: `openrouter/meta-llama/llama-3.1-405b-instruct`
 
-Without the `--best` option, the cheaper models are used:
+Without the `--best` option, more cost-effective models are used:
 
 - **Google**: `gemini/gemini-1.5-flash`
 - **Anthropic**: `anthropic/claude-3-haiku-20240307`
